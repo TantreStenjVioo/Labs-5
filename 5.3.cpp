@@ -9,6 +9,6 @@ int main()
     int AC = abs(C - A); // Вычисляем длину отрезков
     int BC = abs(B - C);
     printf("AC = %i; BC = %i\n", AC, BC);
- 	  printf("AC * BC = %i\n", AC * BC); // Умножаем длины отрезков и выводим полученный результат
+ 	printf("AC * BC = %i\n", AC * BC); // Умножаем длины отрезков и выводим полученный результат
     return 0;
 }
